@@ -1,0 +1,107 @@
+.leftsides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.riglef{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.cities{
+    display: flex;
+}
+.picss{
+    border: 1px solid black;
+    border-width: 0px;
+    border-radius: 70%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.names{
+    text-align: center;
+}
+.manojkumar{
+    width: 600px;
+}
+.idsss{
+    padding: 10px;
+    margin: 10px;
+}
+.idsss:hover{
+    box-shadow: 5px 5px 5px 5px #aeaeae;
+    border-radius: 20%;
+}
+.paragra{
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.fullleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.riglef{
+    margin: 10px;
+    padding: 10px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    padding: 10px;
+    margin: 10px;
+}
+.cons{
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border: 1px solid green;
+    transition: 2s;
+    border-radius: 5px;
+}
+.cons:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    border-width: 0px;
+}
+@media (max-width:991px) {
+    
+   .riglef{
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+  .manojkumar{
+    width: 300px;
+   }
+   
+.picss{
+    border: 1px solid black;
+    border-width: 0px;
+    border-radius: 70%;
+    height: 50px;
+    width: 50px;
+}
+}

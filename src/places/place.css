@@ -1,0 +1,135 @@
+.divison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pics{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.h1{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    border-radius: 50px;
+}
+.p{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    border-radius: 50px;
+}
+.hed{
+    margin: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border: 1px solid green;
+    transition: 1s;
+}
+.hed:hover{
+    background-color: black;
+    color:#fff;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.please{
+    letter-spacing: 1px;
+    color: green;
+}
+.data{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.datas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+}
+.idss{
+    box-shadow: 0px 5px 5px 0px #aeaeae;
+    border-radius: 10px;
+}
+
+.idss:hover{
+    box-shadow: 5px 5px 5px 5px #aeaeae;
+}
+.select{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+@media (max-width:911px) {
+    .data{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius:2px;
+    border-top-right-radius: 2px;
+}
+.h1{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 6px;
+}
+.p{
+    font-size: 3px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.idss{
+    box-shadow: 0px 5px 5px 0px #aeaeae;
+    border-radius: 1px;
+}
+}

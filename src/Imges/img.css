@@ -1,0 +1,109 @@
+.mainimges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    box-shadow: 0px 5px 5px 0px #aeaeae;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+.allpics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Allinone{
+    padding: 30px;
+    margin: 30px;
+}
+.mat{
+    padding: 10px;
+    margin: 10px;
+}
+.gt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inmat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+.ck{
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+.buttons{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: green;
+    color: #fff;
+    border-width: 0px;
+}
+.roomss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.rks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.po{
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+@media (max-width:991px) {
+    .gt{
+        flex-direction: column;
+    }
+    .pictu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    }
+    .mainimges{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 300px;
+        box-shadow: 0px 5px 5px 0px #aeaeae;
+    }
+}
